@@ -167,7 +167,7 @@ void rvWeaponRocketLauncher::Think ( void ) {
 			// If the rocket is still guiding then stop the guide and slow it down
 			if ( proj->GetGuideType ( ) != idGuidedProjectile::GUIDE_NONE ) {
 				proj->CancelGuide ( );				
-				proj->SetSpeed ( guideSpeedFast, (1.0f - (proj->GetSpeed ( ) - guideSpeedSlow) / (guideSpeedFast - guideSpeedSlow)) * guideAccelTime );
+				proj->SetSpeed ( guideSpeedFast, (10.0f - (proj->GetSpeed ( ) - guideSpeedSlow) / (guideSpeedFast - guideSpeedSlow)) * guideAccelTime );
 			}
 		}
 
