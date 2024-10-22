@@ -4203,8 +4203,8 @@ idEntity *idAI::FindEnemy ( bool inFov, bool forceNearest, float maxDistSqr ){
 		// awareRange on creatures to simulate them looking behind them, or noticing someone standing around for too long.
 		// Modders take note, this will prevent most "sneaking up on bad guys" action because they will likely spike their aware ranges out
 		// during the sneaking.
-		if( gameLocal.random.RandomFloat() < 0.005f )	{
-			awareRangeSqr *= 15;
+		if( gameLocal.random.RandomFloat() < 0.005f )	{//Changed awareRangeSqr to 1 --JZahore
+			awareRangeSqr *= 1;
 		}
 
 		// fov doesn't matter if they're within awareRange, we "sense" them if we're alert... (or should LOS not even matter at this point?)
