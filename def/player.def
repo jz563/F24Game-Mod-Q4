@@ -693,7 +693,7 @@ entityDef player_marine
 	// seperate multiple weapons with commas (no spaces).
 	// NOTE: default ammo must be specified explicitly.
 	"weapon"						"weapon_blaster"
-	"current_weapon"					"-1"
+	"current_weapon"					"1"
 
 	"pm_jumpheight"						"48"
 	"pm_stepsize"						"16"
