@@ -280,9 +280,6 @@ entityDef projectile_blaster
 	"fx_impact_monstermetal"	"effects/weapons/blaster/impact_monstermetal.fx"
 	"fx_impact_electronics"		"effects/weapons/machinegun/impact_electronics.fx"
 	"fx_impact_armor"			"effects/weapons/machinegun/impact_armor.fx"
-	
-	"fx_teleport_enter"		"effects/mp/item_teleport.fx"
-	"fx_teleport"			"effects/mp/item_teleport.fx"
 }
 
 entityDef projectile_blaster_charged
