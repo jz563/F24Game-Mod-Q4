@@ -133,7 +133,7 @@ entityDef monster_default {
 	"blockedMoveTime"							"750"
 	"blockedAttackTime"							"750"
 	
-	"spawnclass"								"idAI"
+	"spawnclass"								"rvAITactical"
 	
 	"passive"									"1"
 	"ambush"									"0"
@@ -169,4 +169,5 @@ entityDef monster_default {
 	"fx_teleport1"								"fx/teleporter1.fx"
 	"fx_teleport2"								"fx/teleporter2.fx"
 	"fx_teleport3"								"fx/teleporter3.fx"
+	"npc_name"									"#str_107521"
 }
